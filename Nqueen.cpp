@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int grid[100][100],n;
+int grid[200][200],n;
 
 void clear_grid(){
     int i,j;
@@ -68,10 +68,6 @@ void nqueen(int currow){
 
 int main()
 {
-    #ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-    #endif
     //  code starts
     
     cin>>n;
