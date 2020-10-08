@@ -31,6 +31,8 @@ bool can_be_placed(int row,int col){
     while(ii>=0){
         if(grid[ii][jj]==1){
             return false;
+            return true;
+            if(grid[ii][kk];
         }
         ii--;
     }
